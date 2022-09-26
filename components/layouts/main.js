@@ -15,20 +15,20 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Clinton's homepage" />
-        <meta name="author" content="Clinton Tang" />
+        <meta name="description" content="Frankie's homepage" />
+        <meta name="author" content="Frankie Tang" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="Clinton Tang" />
+        <meta name="twitter:title" content="Frankie Tang" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@fralalaland" />
         <meta name="twitter:creator" content="@fralalaland" />
-        <meta name="twitter:image" content="https://www.clintonn.xyz/card.png" />
-        <meta property="og:site_name" content="Clinton Tang" />
-        <meta name="og:title" content="Clinton Tang" />
+        <meta name="twitter:image" content="https://www.frankietang.xyz/card.png" />
+        <meta property="og:site_name" content="Frankie Tang" />
+        <meta name="og:title" content="Frankie Tang" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.clintonn.xyz/card.png" />
-        <title>Clinton - Homepage</title>
+        <meta property="og:image" content="https://www.frankietang.xyz/card.png" />
+        <title>Frankie - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />

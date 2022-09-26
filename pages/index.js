@@ -39,7 +39,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Clinton Tang
+            Frankie Tang
           </Heading>
           <p>Digital Craftsman ( Developer | Engineer | Analyst )</p>
         </Box>
@@ -72,13 +72,13 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          About Clinton / Kin Leung
+          About Frankie / Kin Leung
         </Heading>
         <Paragraph>
           I'm a full-time developer based in Singapore with a passion for building 
-          digital services/stuff he wants. I am currently employed in WizVision as
+          digital services/stuff I want. I am currently employed in WizVision as
           a Sofware Engineer, focusing on software development using Java and Angular
-          as my stack. When not online, I develop Telegram bots and other side hobbies.
+          as my stack. When not online, I develop Telegram bots and other side projects.
           On rest days, you will mostly find me in Bugis NLB or Funan Mall. I also actively
           maintain {' '}
           <NextLink href="https://github.com/tangkinleung?tab=repositories&q=&type=public&language=&sort=" passHref scroll={false}>

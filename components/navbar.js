@@ -74,23 +74,8 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
             <LinkItem href="/works" path={path}>
               Works
             </LinkItem>
-            <LinkItem href="/posts" path={path}>
-              Posts
-            </LinkItem>
-            <LinkItem href="https://uses.craftz.dog/" target="_blank">
-              Uses
-            </LinkItem>
-            <LinkItem
-              target="_blank"
-              href="https://github.com/tangkinleung"
-              path={path}
-              display="inline-flex"
-              alignItems="center"
-              style={{ gap: 4 }}
-              pl={2}
-            >
-              <IoLogoGithub />
-              Source
+            <LinkItem href="/resources" path={path}>
+              Resources
             </LinkItem>
           </Stack>
   
@@ -107,23 +92,14 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
                 />
                 <MenuList>
                   <NextLink href="/" passHref>
-                    <MenuItem as={Link}>About</MenuItem>
+                    <MenuItem as={Link}>Home</MenuItem>
                   </NextLink>
                   <NextLink href="/works" passHref>
                     <MenuItem as={Link}>Works</MenuItem>
                   </NextLink>
-                  <NextLink href="/posts" passHref>
-                    <MenuItem as={Link}>Posts</MenuItem>
+                  <NextLink href="/resources" passHref>
+                    <MenuItem as={Link}>Resources</MenuItem>
                   </NextLink>
-                  <NextLink href="https://uses.craftz.dog/" passHref>
-                    <MenuItem as={Link}>Uses</MenuItem>
-                  </NextLink>
-                  <MenuItem
-                    as={Link}
-                    href="https://github.com/craftzdog/craftzdog-homepage"
-                  >
-                    View Source
-                  </MenuItem>
                 </MenuList>
               </Menu>
             </Box>
