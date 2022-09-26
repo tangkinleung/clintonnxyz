@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/cargogo": [
+    "/works/portfolio": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/cargogo.js"
+      "static/chunks/pages/works/portfolio.js"
+    ],
+    "/works/wizvision": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/wizvision.js"
     ]
   },
   "ampFirstPages": []

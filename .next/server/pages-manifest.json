@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/works": "pages/works.js",
-  "/works/cargogo": "pages/works/cargogo.js"
+  "/works/wizvision": "pages/works/wizvision.js",
+  "/works/portfolio": "pages/works/portfolio.js"
 }

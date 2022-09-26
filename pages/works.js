@@ -7,9 +7,9 @@ import thumbPortfolio from '../public/images/works/portfolio_eyecatch.png'
 import thumbHRMobile from '../public/images/works/hrmobile_eyecatch.png'
 import thumbEForm from '../public/images/works/eform_eyecatch.png'
 import thumbCargogo from '../public/images/works/cargogo_eyecatch.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
+import thumbWiz from '../public/images/works/wizvision_eyecatch.png'
+import thumbNanyang from '../public/images/works/nanyang_eyecatch.png'
+import thumbPSA from '../public/images/works/psa_eyecatch.png'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
@@ -69,29 +69,30 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Experiences
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+          <Badge>Present</Badge>
+          <WorkGridItem id="wizvision" thumbnail={thumbWiz} title="WizVision">
+            Software Engineer ( Internship )
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
+          <Badge>2018</Badge>
           <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+            id="nanyang" thumbnail={thumbNanyang} title="Nanyang Tech"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            IT Engineer ( Contract )
           </WorkGridItem>
         </Section>
+
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+          <Badge>2018</Badge>
+          <WorkGridItem id="psa" thumbnail={thumbPSA} title="PSA">
+            Data Analyst ( Internship )
           </WorkGridItem>
         </Section>
       </SimpleGrid>
