@@ -10,7 +10,7 @@ import thumbCargogo from '../public/images/works/cargogo_eyecatch.png'
 import thumbWiz from '../public/images/works/wizvision_eyecatch.png'
 import thumbNanyang from '../public/images/works/nanyang_eyecatch.png'
 import thumbPSA from '../public/images/works/psa_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
+import thumbACMS from '../public/images/works/acms_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
@@ -23,29 +23,29 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <Badge>Hobby</Badge>
+          <Badge variant='solid' colorScheme='green'>Hobby</Badge>
           <WorkGridItem 
             id="portfolio" 
             title="Personal portfolio" 
             thumbnail={thumbPortfolio}
           >
-            A portfolio site built in Jekyll and Ruby, hosted on GitHub Pages.
+            A portfolio site built in Jekyll &amp; Ruby.
           </WorkGridItem>
         </Section>
 
         <Section>
-        <Badge>Academic</Badge>
+        <Badge variant='solid' colorScheme='green'>Academic</Badge>
           <WorkGridItem
             id="hrmobile"
             title="HR Resource mobile app"
             thumbnail={thumbHRMobile}
           >
-            A HR app for Android, built in Kotlin. 
+            A HR mobile app for Android, built in Kotlin. 
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <Badge>Industrial</Badge>
+          <Badge variant='solid' colorScheme='green'>Industrial</Badge>
           <WorkGridItem
             id="eform"
             title="Construction Site E-Forms"
@@ -56,11 +56,11 @@ const Works = () => (
         </Section>
 
         <Section delay={0.1}>
-          <Badge>Academic</Badge>
+          <Badge variant='solid' colorScheme='green'>Academic</Badge>
           <WorkGridItem id="cargogo" 
           thumbnail={thumbCargogo} 
           title="CarGoGo">
-            A web-based application for buying and selling cars, built in HTML and Python.
+            A web-based vehicle-trading application, built in HTML &amp; Python.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -75,13 +75,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <Badge>Present</Badge>
+          <Badge variant='solid' colorScheme='green'>Present</Badge>
           <WorkGridItem id="wizvision" thumbnail={thumbWiz} title="WizVision">
             Software Engineer ( Internship )
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <Badge>2018</Badge>
+          <Badge variant='solid' colorScheme='green'>2018</Badge>
           <WorkGridItem
             id="nanyang" thumbnail={thumbNanyang} title="Nanyang Tech"
           >
@@ -90,7 +90,7 @@ const Works = () => (
         </Section>
 
         <Section delay={0.3}>
-          <Badge>2018</Badge>
+          <Badge variant='solid' colorScheme='green'>2017</Badge>
           <WorkGridItem id="psa" thumbnail={thumbPSA} title="PSA">
             Data Analyst ( Internship )
           </WorkGridItem>
@@ -107,23 +107,10 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="freedbtagger"
-            thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
-          >
-            Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
+          <Badge variant='solid' colorScheme='green'>Academic</Badge>
+          <WorkGridItem id="acms" thumbnail={thumbACMS} title="Aircon Monitoring System">
+            Mesh-based system for monitoring aircon temperature and humidity.
+            Built in Python, RPi4 &amp; MQTT.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

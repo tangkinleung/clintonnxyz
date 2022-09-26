@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/works": "pages/works.js",
-  "/works/wizvision": "pages/works/wizvision.js",
-  "/works/portfolio": "pages/works/portfolio.js"
+  "/posts": "pages/posts.js"
 }

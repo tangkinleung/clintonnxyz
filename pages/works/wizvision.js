@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="WizVision">
     <Container>
       <Title>
-        WizVision <Badge>Present</Badge>
+        WizVision <Badge variant='solid' colorScheme='green'>Present</Badge>
       </Title>
       <P>
         WizVision is an established ICT System provider based in Singapore.

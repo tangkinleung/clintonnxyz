@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="hrmobile">
     <Container>
       <Title>
-        HR Resource Mobile Application <Badge>2022</Badge> <Badge>Academic</Badge>
+        HR Resource Mobile Application <Badge variant='solid' colorScheme='green'>2022</Badge> <Badge variant='solid' colorScheme='green'>Academic</Badge>
       </Title>
       <P>
         As an academic project, the HR resource mobile application is fully functional. 

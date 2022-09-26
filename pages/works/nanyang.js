@@ -16,7 +16,7 @@ const Work = () => (
   <Layout title="Nanyang Tech">
     <Container>
       <Title>
-        Nanyang Tech Pte Ltd <Badge>2018</Badge>
+        Nanyang Tech Pte Ltd <Badge variant='solid' colorScheme='green'>2018</Badge>
       </Title>
       <P>
         Nanyang Tech Pte Ltd is a Singapore-based company that provide IT Services 

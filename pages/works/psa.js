@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="PSA">
     <Container>
       <Title>
-        Port of Singapore Authority <Badge>2017</Badge>
+        Port of Singapore Authority <Badge variant='solid' colorScheme='green'>2017</Badge>
       </Title>
       <P>
         Port of Singapore Authority (PSA) is the leading port operator in Asia.

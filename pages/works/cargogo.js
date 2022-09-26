@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="cargogo">
     <Container>
       <Title>
-        CarGoGo (Go Vroom) <Badge>2021</Badge> <Badge>Academic</Badge>
+        CarGoGo (Go Vroom) <Badge variant='solid' colorScheme='green'>2021</Badge> <Badge variant='solid' colorScheme='green'>Academic</Badge>
       </Title>
       <P>
         CarGoGo is an academic project that aims to develop database 

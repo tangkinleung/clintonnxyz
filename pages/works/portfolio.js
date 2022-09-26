@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="portfolio">
     <Container>
       <Title>
-        Personal portfolio site <Badge>2020-2022</Badge> <Badge>Hobby</Badge>
+        Personal portfolio site <Badge variant='solid' colorScheme='green'>2020-2022</Badge> <Badge variant='solid' colorScheme='green'>Hobby</Badge>
       </Title>
       <P>
         A personal site that I did on my own free time while using it as an opportunity to learn how scss, ruby and Jekyll works. 

@@ -15,10 +15,10 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="eform">
+  <Layout title="e-Form System">
     <Container>
       <Title>
-        Construction Site E-Form System <Badge>2021</Badge> <Badge>Industrial</Badge>
+        Construction Site E-Form System <Badge variant='solid' colorScheme='green'>2021</Badge> <Badge variant='solid' colorScheme='green'>Industrial</Badge>
       </Title>
       <P>
       An E-Form System created for Cloud Plus Pte Ltd. 
@@ -48,7 +48,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Huawei Cloud, React Native, Ant Design</span>
+          <span>NodeJS, Huawei Cloud, React</span>
         </ListItem>
       </List>
       </Container>
